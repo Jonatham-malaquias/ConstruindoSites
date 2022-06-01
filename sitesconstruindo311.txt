@@ -1,0 +1,75 @@
+Foto de Danny Meneses no Pexels
+Foto de Lukas: https://www.pexels.com/pt-br/foto/caneta-retratil-azul-574070/
+Foto de Negative Space: https://www.pexels.com/pt-br/foto/close-codificacao-codigo-computador-portatil-160107/
+
+
+
+
+
+
+<section class="servicos">
+      <div class="center">
+        <h1>O que fazemos?</h1>
+        <p>Criamos páginas de captura personalizada para
+          seu serviço ou lançamentos. 
+          Buscamos sempre a melhor forma e estratégia
+          para que seu site tenha uma ótima conversão
+        </p>
+        <a href="#" class="btn">Sim! quero uma landing page</a>
+      </div>
+    </section>
+
+    <section class="preco">
+      <div class="center">
+        <div class="valor">
+          <p class="menor">A partir de:</p>
+          <p class="maior">R$ 700,00</p>
+          <p class="menor">até 10x de R$ 70,00</p>
+        </div>
+
+        <div class="pacote">
+          <div class="divServico">
+            Tela de obrigado
+          </div>
+
+          <div class="divServico">
+            E-mail marketing
+          </div>
+        </div>
+
+        <a href="#" class="btn">Sim! quero uma landing page</a>
+      </div><!--center-->
+    </section>
+
+    <footer>
+      <!-- imagem -->
+      <img src="/imagem/pexels-negative-space-160107.jpg" alt="">
+
+      <div class="center">
+        <div class="redesSociaisLinks">
+          <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <p>construindosites400@gmail.com</p>
+          </div>
+
+          <div class="whatsapp">
+            <a href="#link"><i class="fa-brands fa-whatsapp"></i> whatsapp</a>
+          </div>
+
+          <div class="instagram">
+            <a href="https://www.instagram.com/construindosites2022/" target="_blank" ><i class="fa-brands fa-instagram"></i> @construindosites2022</a>
+          </div>
+
+          <div class="GitHub">
+            <a href="https://github.com/Jonatham-malaquias" target="_blank" ><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="copyright">
+        site feito pela construindo sites © direitos reservados
+      </div>
+    </footer>
+
+

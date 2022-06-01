@@ -1,0 +1,1548 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border: none !important;
+}
+
+.center{
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+
+h1{
+
+    font-size: 40px;
+    color: #e66617;
+    /* border: 1px solid #fff; */
+}
+
+.btn{
+    height: 50px;
+    width: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+    color: #000;
+
+    background-color: #e66617;
+    border-radius: 20px;
+    /* border: 1px solid #fff; */
+
+    transition: .3s;
+}
+.btn:hover{
+    border: 1px solid #d6a485;
+    box-shadow: 0 0 15px 5px #e66617;
+    /* background-color: #e66617; */
+}
+/* ----------------------------quadrado----------------------------- */
+body{
+    position: relative;
+    overflow-x: hidden;
+    background: #172636;
+}
+
+body .quadrado1{
+    position: absolute;
+    width: 1730.3px;
+    height: 900.86px;
+    left: -800px;
+    top: 900.67px;
+
+    z-index: -10;
+
+    background: #193D6E;
+    transform: rotate(-42.85deg);
+}
+
+body .quadrado2{
+
+    position: absolute;
+    width: 1131.85px;
+    height: 1904.25px;
+    left: 1530px;
+    top: 770.47px;
+
+    z-index: -10;
+
+    background: #17B2D4;
+    transform: rotate(-42.82deg);   
+}
+/* ------------------------topo------------------------- */
+.header{
+    height: 800px;
+    background-image: url('/imagem/pexels-danny-meneses-943096.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .center{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.header .center .titulo-subtitulo-btn{
+    margin-top: 100px;
+    border: 1px solid #fff;
+
+    position: relative;
+}
+
+.header .center .titulo-subtitulo-btn h1, .header .center .titulo-subtitulo-btn h3{
+    color: #fff;
+}
+
+.header .center .titulo-subtitulo-btn h1{
+    margin-top: 50px;
+    font-size: 80px;
+}
+.header .center .titulo-subtitulo-btn h3{
+    font-size: 20px;
+    text-shadow: 0 0 10px rgb(6, 112, 94);
+}
+
+.header .center .titulo-subtitulo-btn .btn{
+    margin-top: 100px;
+
+    position: absolute;
+    right: 0;
+}
+
+.header .center .btn.telaMenor{
+    display: none;
+}
+
+/* -----------------------slides */
+.header .center .slide{
+    max-width: 580px;
+    margin-top: 100px;
+    margin-right: 10px;
+    height: 580px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+
+}
+
+.swiper {
+    max-width: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 280px;
+    opacity: .9;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+/* ----------------------fim-slides */
+/* 164 */
+
+/* ----------------------------conteudo----------------------------- */
+.conteudo{
+    width: 100%;
+}
+.conteudo .center{
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid #fff;
+}
+.conteudo .center .questoes{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #fff; */
+}
+
+.conteudo .center .questoes h1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    font-size: 40px;
+    color: #e66617;
+    /* border: 1px solid #fff; */
+}
+
+.conteudo .center .questoes p{
+    width: 571px;
+    font-size: 20px;
+    color: #fff;
+    /* border: 1px solid #fff; */
+}
+
+.conteudo .center .questoes .btn{
+    height: 45px;
+    width: 400px;
+}
+
+/* --------------------icones */
+/* icone aviao */
+
+.conteudo .center .iconeLanding{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.conteudo .center .iconeLanding p{
+    text-align: right;
+    min-width: 100%;
+}
+/* */
+
+.conteudo .center .iconeLanding .iconeAviao{
+    border: 1px solid #fff;
+    height: 200px;
+    width: 100%;
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 100px;
+
+    color: #fff;
+}
+
+/* --------------------------- */
+.conteudo .center .questoes.icones{
+    flex-direction: row;
+    align-items: center;
+}
+
+.conteudo .center .questoes.icones .iconesRedeSocial{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo .center .questoes.icones .iconesRedeSocial i{
+    font-size: 80px;
+}
+
+.conteudo .center .questoes.icones .iconesRedeSocial .fa-instagram{
+    color: purple;
+}
+
+.conteudo .center .questoes.icones .iconesRedeSocial .fa-whatsapp{
+    color: rgb(86, 201, 86);
+}
+
+.conteudo .center .questoes.icones .iconesRedeSocial .fa-facebook{
+    color: #fff;
+}
+/* -----------------fim icones */
+
+/* -----------------inverte */
+.conteudo .center .questoes.inverte{
+    align-items: flex-end;
+}
+
+/* ------------------inverte-bota */
+.conteudo .center .questoes.inverte-botao{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo .center .questoes.inverte-botao p{
+    border: 1px solid #fff;
+    min-width: 100%;
+}
+/* --------------------fim inverte  */
+
+/* ------------------------------------------templates------------------------------------ */
+
+.conteudo .center .templates h1{
+    text-align: center;
+}
+
+.conteudo .center .templates .projetos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 50px;
+}
+
+.conteudo .center .templates .projetos .projeto{
+    width: 210px;
+    margin-top: 10px;
+    
+    transition: .5s;
+}
+
+.conteudo .center .templates .projetos .projeto:hover{
+    transform: scale(1.1);
+}
+
+.conteudo .center .templates .projetos .projeto:nth-child(1){
+    height: 290px;
+    width: 210px;
+    background-image: url('/imagem/imagem-corpo-fitness.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.conteudo .center .templates .projetos .projeto:nth-child(2){
+    height: 290px;
+    width: 210px;
+    background-image: url('/imagem/imagem-psicologuia.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo .center .templates .projetos .projeto:nth-child(3){
+    height: 290px;
+    width: 210px;
+    background-image: url('/imagem/imagem-site-bitcoin.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ------------------------------------------fim template---------------------  */
+
+/* -----------------------------------tecnologia usada------------------------- */
+.tecnologias{
+    margin-bottom: 50px;
+}
+
+.tecnologias h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    font-size: 40px;
+    color: #e66617;
+    /* border: 1px solid #fff; */
+}
+
+.tecnologias .tecnologiaBox{
+    height: 200px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    gap: 50px;
+}
+
+.tecnologias .tecnologiaBox .tecnologiaNome{
+    height: 190px;
+    display: flex;
+    justify-content: center;
+
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+
+    /* border: 1px solid #fff; */
+}
+
+.tecnologias .tecnologiaBox .alto{
+    animation: movimentacaoAlto 3s infinite;
+}
+
+.tecnologias .tecnologiaBox .fundo{
+    align-items: flex-end;
+    animation: movimentacaoAlto 3s infinite;
+}
+
+@keyframes movimentacaoAlto{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: 50px;;
+    }
+    100%{
+        top: 0px;
+    }
+}
+/* -----------------------------------fim tecnologias usadas------------------------ */
+
+/* ----------------------------------servicos------------------------------ */
+.servicos{
+    height: 560px;
+    background-color: #fff;
+}
+
+.servicos .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    font-size: 30px;
+
+    border: 1px solid red;
+}
+
+.servicos .center h1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.servicos .center p{
+    width: 711px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+}
+
+.servicos .center .btn{
+    width: 400px;
+}
+
+/*----------------------------------servicos------------------------------*/
+
+/* ------------------------------preco----------------------------- */
+.preco .center{
+    margin-bottom: 100px;
+}
+.preco .center .valor{
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    margin-bottom: 60px;
+}
+
+.preco .center .valor .menor{
+    font-size: 20px;
+    font-weight: 300px;
+    color: #fff;
+}
+
+.preco .center .valor .maior{
+    font-size: 96px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.preco .center .pacote{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.preco .center .pacote .divServico{
+    height: 60px;
+    width: 370px;
+
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.5);
+    color: #fff;
+
+    transition: .5s;
+}
+
+.preco .center .pacote .divServico:hover{
+    background: rgba(217, 217, 217, 0.8);
+    color: #000;
+}
+
+.preco .center .btn{
+    margin:  0 auto;
+    width: 400px;
+}
+/* ------------------------------fim-preco----------------------------- */
+
+/* ---------------------------------rodape-------------------------- */
+
+footer{
+    height: 423px;
+    width: 100%;
+    position: relative;
+}
+
+footer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(10px);
+
+    position: absolute;
+    z-index: -10;
+}
+
+footer .center{
+    display: flex;
+    align-items: center;
+}
+
+footer .center .redesSociaisLinks .email,
+footer .center .redesSociaisLinks .whatsapp,
+footer .center .redesSociaisLinks .instagram{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+footer .center .redesSociaisLinks .email p{
+    margin-left: 10px;
+    color: #fff;
+    text-shadow: 0 0 10px #e66617;
+}
+
+footer .center .redesSociaisLinks .whatsapp,
+footer .center .redesSociaisLinks .instagram,
+footer .center .redesSociaisLinks .GitHub{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+footer .center .redesSociaisLinks .whatsapp a,
+footer .center .redesSociaisLinks .instagram a,
+footer .center .redesSociaisLinks .GitHub a{
+    padding: 5px 10px;
+    border-radius: 100px;
+    background-color: rgba(145, 145, 145, 0.445);
+    color: #34af23;
+
+    transition: .5s;
+}
+
+footer .center .redesSociaisLinks .GitHub a{
+    color: #000;
+}
+
+footer .center .redesSociaisLinks .instagram a{
+    color: #3f729b;
+}
+
+footer .center .redesSociaisLinks .whatsapp a:hover,
+footer .center .redesSociaisLinks .instagram a:hover,
+footer .center .redesSociaisLinks .GitHub a:hover{
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+/* --------------------------------fim-rodape-------------------------- */
+.copyright{
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1366px){
+    body{
+        overflow-x: hidden;
+    }
+    body .quadrado1{
+        width: 730.3px;
+        height: 777.86px;
+        left: -400px;
+        top: 400.67px;
+    }
+
+    body .quadrado2{
+        width: 731.85px;
+        height: 904.25px;
+        left: 1030px;
+        top: 770.47px;
+    
+        background: #17B2D4;
+        transform: rotate(-42.82deg);
+    }
+
+    .header{
+        height: 600px;
+    }
+    
+    .header .center .titulo-subtitulo-btn h1{
+        margin-top: 50px;
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 1170px){
+    body{
+        overflow-x: hidden;
+    }
+
+    body .quadrado2{
+        width: 1131.85px;
+        height: 1904.25px;
+        left: 1100px;
+        top: 330px; 
+    }
+
+.center{
+    width: 90%;
+}
+    /* ------------------------topo------------------------- */
+.header{
+    height: 500px;
+}
+
+.header .center .titulo-subtitulo-btn{
+    margin-top: 50px;
+    min-width: 500px;
+    
+    position: relative;
+}
+
+.header .center .titulo-subtitulo-btn h1{
+    margin-top: 20px;
+    font-size: 53px;
+}
+
+.header .center .titulo-subtitulo-btn .btn{
+    margin-top: 100px;
+}
+
+
+/* -----------------------slides */
+.header .center .slide{
+    max-width: 500px;
+    min-width: 150px;
+
+    margin-top: 50px;
+    height: 380px;
+}
+
+.swiper {
+    max-width: 100%;
+    border: 1px solid #fff;
+  }
+
+  .swiper-slide {
+    height: 320px;
+  }
+/* ----------------------fim-slides */
+
+ /* ----------------------------conteudo----------------------------- */
+    .conteudo{
+        width: 100%;
+    }
+    .conteudo .center{
+        width: 90%;
+    }
+    .conteudo .center .questoes{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid #fff;
+    }
+
+    .conteudo .center .questoes h1{
+        margin-top: 20px;
+        margin-bottom: 5px;
+
+        font-size: 30px;
+        border: 1px solid #fff;
+    }
+
+    .conteudo .center .questoes p{
+        width: 380px;
+        font-size: 18px;
+        
+    }
+
+    .conteudo .center .questoes .btn{
+        height: 45px;
+        width: 340px;
+        font-size: 20px;
+    }
+
+    /* --------------------icones */
+    /* icone aviao */
+
+    .conteudo .center .iconeLanding{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #fff
+    }
+
+    .conteudo .center .iconeLanding .iconeAviao{
+        border: 1px solid #fff;
+        height: 350px;
+        width: 100%;
+        margin-right: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 100px;
+
+        color: #fff;
+    }
+
+    /* --------------------------- */
+    .conteudo .center .questoes.icones{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial{
+        width: 100%;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial i{
+        font-size: 80px;
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial .fa-instagram{
+        color: purple;
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial .fa-whatsapp{
+        color: rgb(86, 201, 86);
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial .fa-facebook{
+        color: #fff;
+    }
+    /* -----------------fim icones */
+
+    /* -----------------inverte */
+    .conteudo .center .questoes.inverte{
+        align-items: flex-end;
+    }
+
+    /* ------------------inverte-bota */
+    .conteudo .center .questoes.inverte-botao{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .conteudo .center .questoes.inverte-botao p{
+        text-align: right;
+        margin-right: 0;
+    }
+    /* --------------------fim inverte  */
+
+    /* ------------------------------------------templates------------------------------------ */
+    .templates h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-size: 30px;
+    }
+
+    /*
+    .templates .projetos{
+    height: 300px;
+    width: 100%;
+    }
+    
+    .templates .projetos .projeto{
+    height: 100%;
+    }
+
+    .templates .projetos .projeto img{
+    height: 100%;
+    max-width: 200px;
+    }
+
+    .templates .projetos .projeto img:hover{
+    transform: scale(1.1);
+    } */
+    /* ------------------------------------------fim template---------------------  */
+
+    /* -----------------------------------tecnologia usada------------------------- */
+    .tecnologias{
+    margin-bottom: 30px;
+    }
+
+    .tecnologias h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    font-size: 30px;
+    color: #e66617;
+    }
+
+    .tecnologias .tecnologiaBox{
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid #fff; */
+    }
+
+    .tecnologias .tecnologiaBox .tecnologiaNome{
+    height: 140px;
+
+    font-size: 30px;
+
+    /* border: 1px solid #fff; */
+    }
+    /* -----------------------------------fim tecnologias usadas------------------------ */
+
+    /* ----------------------------------servicos------------------------------ */
+    .servicos{
+    height: 360px;
+    background-color: #fff;
+    }
+
+    .servicos .center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    font-size: 20px;
+
+    border: 1px solid red;
+    }
+
+    .servicos .center h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+
+    .servicos .center p{
+    width: 478px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    }
+
+    .servicos .center .btn{
+    width: 350px;
+    }
+
+    /*----------------------------------servicos------------------------------*/
+
+
+    /* ------------------------------preco----------------------------- */
+    .preco .center{
+    margin-bottom: 100px;
+    }
+    .preco .center .valor{
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    margin-bottom: 60px;
+    }
+
+    .preco .center .valor .menor{
+    font-size: 15px;
+    }
+
+    .preco .center .valor .maior{
+    font-size: 80px;
+    }
+
+    .preco .center .pacote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    }
+
+    .preco .center .pacote .divServico{
+    height: 50px;
+    width: 350px;
+
+    margin-bottom: 10px;
+
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    background: rgba(217, 217, 217, 0.2);
+    }
+    .preco .center .pacote .divServico:nth-child(2){
+    margin-bottom: 0;
+    }
+
+    .preco .center .btn{
+    margin:  0 auto;
+    width: 350px;
+    }
+    /* ------------------------------fim-preco----------------------------- */
+
+
+    /* ---------------------------------rodape-------------------------- */
+
+    footer{
+    height: 323px;
+    width: 100%;
+    position: relative;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    body .quadrado1{
+        width: 1730.3px;
+        height: 900.86px;
+        left: -1300px;
+        top: 450.67px;
+    }
+
+    body .quadrado2{
+
+        width: 1131.85px;
+        height: 1904.25px;
+        left: 900px;
+        top: 380px; 
+    }
+
+    .tecnologias{
+        margin-bottom: 20px;
+    }
+    
+    .tecnologias h1{
+        margin-top: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+    
+        font-size: 30px;
+        color: #e66617;
+        /* border: 1px solid #fff; */
+    }
+    
+    .tecnologias .tecnologiaBox{
+        height: 200px;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tecnologias .tecnologiaBox .tecnologiaNome{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    
+        font-size: 25px;
+        color: #fff;
+        font-weight: bold;
+        position: relative;
+    
+        /* border: 1px solid #fff; */
+    }
+    
+    .tecnologias .tecnologiaBox .alto{
+        animation: movimentacaoAlto 3s infinite;
+    }
+    
+    .tecnologias .tecnologiaBox .fundo{
+        align-items: flex-end;
+        animation: movimentacaoAlto 3s infinite;
+    }
+    
+    @keyframes movimentacaoAlto{
+        0%{
+            top: -50px;
+        }
+        50%{
+            top: 50px;;
+        }
+        100%{
+            top: -50px;
+        }
+    }
+}
+
+@media screen and (max-width: 834px){
+    body{
+        overflow-x: hidden;
+    }
+    .center{
+        width: 90%;
+    }
+
+    .header{
+        height: 500px;
+    }
+
+    .header .center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header .center .titulo-subtitulo-btn{
+        margin-top: 0px;
+        text-align: center;
+    }
+    
+    .header .center .titulo-subtitulo-btn h1{
+        margin-top: 0;
+        font-size: 60px;
+    }
+    
+    .header .center .titulo-subtitulo-btn .btn{
+        display: none;
+    }
+    
+    /* -----------------------slides */
+    .header .center .slide{
+        max-width: 100%;
+        margin-top: 0px;
+        margin-right: 0;
+        height: 250px;
+        border: 1px solid #fff;
+        display: flex;
+    }
+    
+    .swiper {
+        width: 100%;
+    }
+    
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 180px;
+        height: 260px;
+        opacity: .9;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    /* ----------------------fim-slides */
+
+    /* --------------------------btn tela menor  */
+    .header .center .btn.telaMenor{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+    }
+     /* -------------------------fim-btn tela menor  */
+
+    /* ----------------------------conteudo----------------------------- */
+    .conteudo .center .primeiro h1{
+        text-align: center;
+    }
+
+    .conteudo .center .primeiro p{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .conteudo .center .questoes.icones{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .conteudo .center .questoes.icones .iconesRedeSocial{
+        width: 100px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial i{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .conteudo .center .questoes.icones .iconesRedeSocial i:nth-child(1){
+        margin-top: 0;
+    }
+
+    .conteudo .center .questoes.inverte-botao{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo .center .questoes.inverte-botao h1{
+        text-align: center;
+    }
+
+    .conteudo .center .questoes.inverte-botao p{
+        text-align: center;
+        width: 90%;
+        margin: 20px auto;
+        border: 1px solid #fff;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    body{
+        overflow-x: hidden;
+    }
+    .center{
+        width: 95%;
+    }
+/* ------------------------topo------------------------- */
+    .header{
+        height: 500px;
+    }
+
+    .header .center{
+        width: 95%;
+    }
+
+    .header .center .titulo-subtitulo-btn{
+        margin-top: 0px;
+
+        position: relative;
+    }
+
+    .header .center .titulo-subtitulo-btn h1{
+        margin-top: 20px;
+        font-size: 50px;
+    }
+    .header .center .titulo-subtitulo-btn h3{
+        font-size: 20px;
+        text-shadow: 0 0 10px rgb(6, 112, 94);
+    }
+
+    /* -----------------------slides */
+    .header .center .slide{
+        max-width: 100%;
+        margin-top: 20px;
+        height: 350px;
+        border: 1px solid #fff;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .swiper {
+        max-width: 100%;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 180px;
+        height: 250px;
+        opacity: .9;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+/* ----------------------fim-slides */
+
+    .header .center .btn.telaMenor{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+    }
+
+/* -----------------------------------------------------
+----------------------------------------------------- */
+
+
+/* ----------------------------conteudo----------------------------- */
+    .conteudo{
+        width: 100%;
+    }
+    .conteudo .center{
+        width: 95%;
+        margin: 0 auto;
+        border: 1px solid #fff;
+    }
+
+    /* --------------------icones */
+    /* icone aviao */
+
+    .conteudo .center .iconeLanding{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .conteudo .center .iconeLanding .informacoes h1{
+        text-align: center;
+    }
+
+    .conteudo .center .iconeLanding .informacoes p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .conteudo .center .iconeLanding .iconeAviao{
+        height: 150px;
+        margin-right: 0px;
+    }
+
+    /* --------------------------- */
+    .conteudo .center .questoes.icones{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial{
+        width: 300px;
+        margin-left: 0px;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid #fff;
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial i{
+        font-size: 50px;
+        margin: 0 auto;
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial .fa-instagram{
+        color: purple;
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial .fa-whatsapp{
+        color: rgb(86, 201, 86);
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial .fa-facebook{
+        color: #fff;
+    }
+
+    .conteudo .center .questoes.icones .informacao h1,
+    .conteudo .center .questoes.icones .informacao p{
+        width: 100%;
+        text-align: center;
+    }
+/* -----------------fim icones */
+
+    .tecnologias{
+        margin-bottom: 30px;
+    }
+
+    .tecnologias h1{
+        margin-top: 20px;
+        margin-bottom: 0px;
+
+        font-size: 30px;
+    }
+
+    .tecnologias .tecnologiaBox{
+        height: 180px;
+        margin: 0 auto;
+
+        flex-direction: column;
+        gap: 5px;
+
+        border: 1px solid black;
+
+    }
+
+    .tecnologias .tecnologiaBox .tecnologiaNome{
+        height: auto;
+
+        font-size: 25px;
+
+        /* border: 1px solid #fff; */
+    }
+
+    @keyframes movimentacaoAlto{
+        0%{
+            left: -50px;
+        }
+        50%{
+            left: 50px;;
+        }
+        100%{
+            left: -50px;
+        }
+    }
+/* -----------------------------------fim tecnologias usadas------------------------ */
+
+
+}
+
+@media screen and (max-width: 620px) {
+    body{
+        overflow-x: hidden;
+    }
+    .conteudo .center .questoes p{
+        font-size: 16px;
+    }
+    
+    .btn{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 50px;
+        width: 250px;
+        text-align: center;
+        line-height: 50px;
+
+        font-size: 15px;
+    }
+    /* ------------------------topo------------------------- */
+    .header{
+        height: 500px;
+    }
+
+    .header .center .titulo-subtitulo-btn h1{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .header .center .titulo-subtitulo-btn h3{
+        font-size: 15px;
+        text-shadow: 0 0 10px rgb(6, 112, 94);
+    }
+
+/* -----------------------slides */
+    .swiper-slide {
+        width: 170px;
+        height: 250px;
+    }
+/* ----------------------fim-slides */
+
+/* ----------------------------conteudo----------------------------- */
+    .conteudo .center .iconeLanding .iconeAviao{
+        font-size: 80px;
+
+    }
+
+    .conteudo .center .questoes .btn{
+        height: 45px;
+        width: 260px;
+        line-height: 45px;
+        font-size: 15px;
+    }
+
+    /* ----------------------------------servicos------------------------------ */
+    .servicos{
+        height: auto;
+    }
+
+    .servicos .center{
+        font-size: 30px;
+
+        border: 1px solid red;
+    }
+
+    .servicos .center h1{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .servicos .center p{
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .servicos .center .btn{
+        width: 250px;
+        margin-bottom: 30px;
+    }
+
+/*---------------------------------fim-servicos------------------------------*/
+    /* ------------------------------preco----------------------------- */
+    .preco .center{
+        margin-bottom: 100px;
+    }
+    .preco .center .valor{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .preco .center .valor .menor{
+        font-size: 15px;
+    }
+
+    .preco .center .valor .maior{
+        font-size: 60px;
+    }
+
+    .preco .center .pacote .divServico{
+        height: 40px;
+        width: 250px;
+        
+
+        font-size: 20px;
+
+        transition: .5s;
+    }
+
+    .preco .center .btn{
+        margin:  0 auto;
+        width: 250px;
+    }
+/* ------------------------------fim-preco----------------------------- */
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        overflow-x: hidden;
+    }
+    .btn{
+        width: 100%;
+    }
+
+    .header{
+        height: 600px;
+    }
+
+    .header .center .titulo-subtitulo-btn{
+        min-width: 70%;
+        border: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header .center .titulo-subtitulo-btn h1{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .header .center .titulo-subtitulo-btn h3{
+        font-size: 20px;
+        text-shadow: 0 0 10px rgb(6, 112, 94);
+    }
+
+    /* -----------------------slides */
+    .header .center .slide{
+        max-width: 100%;
+        margin-top: 10px;
+        height: 280px;
+        border: 1px solid #fff;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .swiper {
+        max-width: 100%;
+    }
+
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 180px;
+        height: 250px;
+        opacity: .9;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+/* ----------------------fim-slides */
+
+    .header .center .btn.telaMenor{
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+/* --------------------------------conteudo */
+
+    .conteudo .center .questoes.icones .iconesRedeSocial{
+        width: 100%;
+    }
+
+    .conteudo .center .questoes.icones .iconesRedeSocial i{
+        font-size: 40px;
+    }
+
+/* ---------------------------------------footer */
+footer .center .redesSociaisLinks .email{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer .center .redesSociaisLinks .email p{
+    margin-left: 0px;
+    font-size: 16px;
+    min-width: 100%;
+}
+
+footer .center .redesSociaisLinks .whatsapp,
+footer .center .redesSociaisLinks .instagram,
+footer .center .redesSociaisLinks .GitHub{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+footer .center .redesSociaisLinks .whatsapp a,
+footer .center .redesSociaisLinks .instagram a,
+footer .center .redesSociaisLinks .GitHub a{
+    padding: 4px 8px;
+}
+
+/* ---------------copyright */
+.copyright{
+    color: #fff;
+    font-size: 10px;
+}
+
+
+}
