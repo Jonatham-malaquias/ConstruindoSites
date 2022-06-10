@@ -53,8 +53,8 @@ body{
     background: #172636;
 }
 
-body .quadrado1{
-    position: absolute;
+/* body .quadrado1{
+     position: absolute;
     width: 1730.3px;
     height: 900.86px;
     left: -800px;
@@ -63,7 +63,7 @@ body .quadrado1{
     z-index: -10;
 
     background: #193D6E;
-    transform: rotate(-42.85deg);
+    transform: rotate(-42.85deg); 
 }
 
 body .quadrado2{
@@ -78,7 +78,8 @@ body .quadrado2{
 
     background: #17B2D4;
     transform: rotate(-42.82deg);   
-}
+    display: none !important; 
+} */
 /* ------------------------topo------------------------- */
 .header{
     height: 800px;
@@ -159,7 +160,36 @@ body .quadrado2{
 /* ----------------------------conteudo----------------------------- */
 .conteudo{
     width: 100%;
+    position: relative;
+    overflow: hidden;
 }
+
+.conteudo .quadrado1{
+    position: absolute;
+    width: 1730.3px;
+    height: 900.86px;
+    left: -1100px;
+    top: 100px;
+
+    z-index: -10;
+
+    background: #193D6E;
+    transform: rotate(-42.85deg);
+}
+
+.conteudo .quadrado2{
+    position: absolute;
+    width: 1131.85px;
+    height: 1904.25px;
+    left: 1020px;
+    top: 150px;
+
+    z-index: -10;
+
+    background: #17B2D4;
+    transform: rotate(-42.82deg);   
+}
+
 .conteudo .center{
     width: 85%;
     margin: 0 auto;
@@ -558,20 +588,6 @@ footer .center .redesSociaisLinks .GitHub a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 1366px){
     body{
         overflow-x: hidden;
@@ -798,12 +814,13 @@ footer .center .redesSociaisLinks .GitHub a:hover{
 
     /* -----------------------------------tecnologia usada------------------------- */
     .tecnologias{
-    margin-bottom: 30px;
+        margin-bottom: 30px;
+        /* border: 1px solid #fff; */
     }
 
     .tecnologias h1{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     text-align: center;
 
     font-size: 30px;
@@ -822,11 +839,23 @@ footer .center .redesSociaisLinks .GitHub a:hover{
     }
 
     .tecnologias .tecnologiaBox .tecnologiaNome{
-    height: 140px;
+    height: 100px;
 
     font-size: 30px;
 
     /* border: 1px solid #fff; */
+    }
+
+    @keyframes movimentacaoAlto{
+        0%{
+            top: -20px;
+        }
+        50%{
+            top: 40px;;
+        }
+        100%{
+            top: -20px;
+        }
     }
     /* -----------------------------------fim tecnologias usadas------------------------ */
 
@@ -1078,6 +1107,17 @@ footer .center .redesSociaisLinks .GitHub a:hover{
      /* -------------------------fim-btn tela menor  */
 
     /* ----------------------------conteudo----------------------------- */
+    .conteudo .quadrado1{
+        position: absolute;
+        left: -1350px;
+        top: 100px;
+    }
+    
+    .conteudo .quadrado2{
+        position: absolute;
+        left: 800px;
+        top: 100px; 
+    }
     .conteudo .center .primeiro h1{
         text-align: center;
     }
@@ -1092,11 +1132,10 @@ footer .center .redesSociaisLinks .GitHub a:hover{
     .conteudo .center .questoes.icones{
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
     .conteudo .center .questoes.icones .iconesRedeSocial{
-        width: 100px;
         margin-left: 10px;
         display: flex;
         flex-direction: column;
@@ -1207,6 +1246,19 @@ footer .center .redesSociaisLinks .GitHub a:hover{
     .conteudo{
         width: 100%;
     }
+
+    .conteudo .quadrado1{
+        position: absolute;
+        left: -1350px;
+        top: -50px;
+    }
+    
+    .conteudo .quadrado2{
+        position: absolute;
+        left: 500px;
+        top: 300px; 
+    }
+
     .conteudo .center{
         width: 95%;
         margin: 0 auto;
@@ -1362,6 +1414,18 @@ footer .center .redesSociaisLinks .GitHub a:hover{
 /* ----------------------fim-slides */
 
 /* ----------------------------conteudo----------------------------- */
+    .conteudo .quadrado1{
+        position: absolute;
+        left: -1250px;
+        top: -50px;
+    }
+
+    .conteudo .quadrado2{
+        position: absolute;
+        left: 500px;
+        top: 500px; 
+    }
+    
     .conteudo .center .iconeLanding .iconeAviao{
         font-size: 80px;
 
@@ -1505,6 +1569,18 @@ footer .center .redesSociaisLinks .GitHub a:hover{
 
 /* --------------------------------conteudo */
 
+    .conteudo .quadrado1{
+        position: absolute;
+        left: -1550px;
+        top: 100px;
+    }
+
+    .conteudo .quadrado2{
+        position: absolute;
+        left: 500px;
+        top: 500px; 
+    }
+
     .conteudo .center .questoes.icones .iconesRedeSocial{
         width: 100%;
     }
@@ -1514,35 +1590,35 @@ footer .center .redesSociaisLinks .GitHub a:hover{
     }
 
 /* ---------------------------------------footer */
-footer .center .redesSociaisLinks .email{
-    flex-direction: column;
-    align-items: flex-start;
-}
+    footer .center .redesSociaisLinks .email{
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-footer .center .redesSociaisLinks .email p{
-    margin-left: 0px;
-    font-size: 16px;
-    min-width: 100%;
-}
+    footer .center .redesSociaisLinks .email p{
+        margin-left: 0px;
+        font-size: 16px;
+        min-width: 100%;
+    }
 
-footer .center .redesSociaisLinks .whatsapp,
-footer .center .redesSociaisLinks .instagram,
-footer .center .redesSociaisLinks .GitHub{
-    margin-top: 10px;
-    font-size: 18px;
-}
+    footer .center .redesSociaisLinks .whatsapp,
+    footer .center .redesSociaisLinks .instagram,
+    footer .center .redesSociaisLinks .GitHub{
+        margin-top: 10px;
+        font-size: 18px;
+    }
 
-footer .center .redesSociaisLinks .whatsapp a,
-footer .center .redesSociaisLinks .instagram a,
-footer .center .redesSociaisLinks .GitHub a{
-    padding: 4px 8px;
-}
+    footer .center .redesSociaisLinks .whatsapp a,
+    footer .center .redesSociaisLinks .instagram a,
+    footer .center .redesSociaisLinks .GitHub a{
+        padding: 4px 8px;
+    }
 
-/* ---------------copyright */
-.copyright{
-    color: #fff;
-    font-size: 10px;
-}
+    /* ---------------copyright */
+    .copyright{
+        color: #fff;
+        font-size: 10px;
+    }
 
 
 }
